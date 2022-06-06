@@ -1,0 +1,141 @@
+<HTML>
+<HEAD>
+	<STYLE type = "text/css">
+		#bg{
+			position: fixed;
+			width: 101%;
+			z-index: -1;
+			top: -0.5%;
+			left: -0.5%;
+		}
+		#designs{
+			position: relative;
+			top: 10%;
+			width: 60%;
+			margin: 10px 10px 10px 10px;
+			border-width: 10px;
+			border-color: lightcoral;
+			border-style: solid;
+		}
+		#designs:hover{
+			border-color: white;
+			border-style: dashed;
+		}
+
+		#folder1 {
+			position: fixed;
+			top: 10%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder2 {
+			position: fixed;
+			top: 25%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder3 {
+			position: fixed;
+			top: 40%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder4 {
+			position: fixed;
+			top: 55%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#d {
+			position: fixed;
+			top: 8%;
+			left: 65%;
+		}
+
+		#p {
+			position: fixed;
+			top: 15%;
+			left: 65%;
+		}
+
+		#home {
+			position: fixed;
+			top: 85%;
+			left: 90%;
+			width: 5%;
+			transition: transform .2s;
+		}
+
+		#home:hover {
+			transform: scale(1.2);
+		}
+
+		.columnImg {
+			position: absolute;
+			left: 65%;
+			width: 18%;
+		}
+
+		.columnFolder {
+			left: 90%;
+			width: 6%;
+			transition: transform .2s;
+		}
+
+		.columnFolder:hover {
+			transform: scale(1.2);
+		}
+		
+		body {
+			font-family: CUTE FROG;
+			color: #ffffff;
+		}
+
+		a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		a:visited {
+			text-decoration: none;
+		}
+
+		a:active {
+			text-decoration: none;
+		}
+
+	</STYLE>
+</HEAD>
+<BODY>
+	<!----Row 1----->
+	<IMG src="after-clicking-bg.png" id="bg"></IMG>
+	<img src="flower1.jpg" id="designs"></img>
+	<img src="flower2.png" id="designs"></img>
+	<img src="flower3.jpg" id="designs"></img>
+	<img src="flower4.jpg" id="designs"></img>
+	<h1 id="d">Middle School design</h1>
+	<p class="columnImg" id="p">This is a design for middle school students where instead of plane frames we used a circle frame with flowers around it like a wreath. There are 3 different frames includig pink, blue, and white flowers. We also cutted out small flowers to put on the bottom right of the page as decoration. Overall the making of this design wasn’t super hard but cutting out the students to fit the frame took some time since the frames are irregular shapes and not completely rounded.</p>
+	<a href="pre-K.html"><img class="columnFolder" src="folder.png" id="folder1"></img>
+	<p class="columnFolder" id="folder1" style="margin-top:5%">Pre-K design</p></a>
+	<a href="ms.html"><img class="columnFolder" src="folder.png" id="folder2"></img>
+	<p class="columnFolder" id="folder2" style="margin-top:5%">Middle School design</p></a>
+	<a href="dm.html"><img class="columnFolder" src="folder.png" id="folder3"></img>
+	<p class="columnFolder" id="folder3" style="margin-top:5%">Digital Media design</p></a>
+	<a href="halloween.html"><img class="columnFolder" src="folder.png" id="folder4"></img>
+	<p class="columnFolder" id="folder4" style="margin-top:5%">Halloween design</p></a>
+	<a href="index.html"><img src="home.png" id="home"></a>
+
+</BODY>
+</HTML>
