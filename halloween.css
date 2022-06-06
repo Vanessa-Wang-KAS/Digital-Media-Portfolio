@@ -1,0 +1,138 @@
+<HTML>
+<HEAD>
+	<STYLE type = "text/css">
+		#bg{
+			position: fixed;
+			width: 101%;
+			z-index: -1;
+			top: -0.5%;
+			left: -0.5%;
+		}
+		#designs{
+			position: relative;
+			top: 10%;
+			width: 60%;
+			margin: 10px 10px 10px 10px;
+			border-width: 10px;
+			border-color: lightcoral;
+			border-style: solid;
+		}
+		#designs:hover{
+			border-color: white;
+			border-style: dashed;
+		}
+
+		#folder1 {
+			position: fixed;
+			top: 10%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder2 {
+			position: fixed;
+			top: 25%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder3 {
+			position: fixed;
+			top: 40%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder4 {
+			position: fixed;
+			top: 55%;
+			left: 90%;
+			width: 6%;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#d {
+			position: fixed;
+			top: 8%;
+			left: 65%;
+		}
+
+		#p {
+			position: fixed;
+			top: 15%;
+			left: 65%;
+		}
+
+		#home {
+			position: fixed;
+			top: 85%;
+			left: 90%;
+			width: 5%;
+			transition: transform .2s;
+		}
+
+		#home:hover {
+			transform: scale(1.2);
+		}
+
+		.columnImg {
+			position: absolute;
+			left: 65%;
+			width: 18%;
+		}
+
+		.columnFolder {
+			left: 90%;
+			width: 6%;
+			transition: transform .2s;
+		}
+
+		.columnFolder:hover {
+			transform: scale(1.2);
+		}
+		
+		body {
+			font-family: CUTE FROG;
+			color: #ffffff;
+		}
+
+		a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		a:visited {
+			text-decoration: none;
+		}
+
+		a:active {
+			text-decoration: none;
+		}
+
+	</STYLE>
+</HEAD>
+<BODY>
+	<!----Row 1----->
+	<IMG src="after-clicking-bg.png" id="bg"></IMG>
+	<img src="halloween.png" id="designs"></img>
+	<h1 id="d">Description</h1>
+	<p class="columnImg" id="p">This page was made for elementary Halloween. I choose orange as the background color as I wanted to match the Halloween theme. There is a banner that says Halloween on it, I figured it was a cute way of adding the title of the page without it looking too formal. The banner was hard to make since I have to draw the shapes by hand as they are all different. There are also some cute Halloween-related icons on different parts of the page to add liveliness.</p>
+	<a href="pre-K.html"><img class="columnFolder" src="folder.png" id="folder1"></img>
+	<p class="columnFolder" id="folder1" style="margin-top:5%">Pre-K design </p></a>
+	<a href="ms.html"><img class="columnFolder" src="folder.png" id="folder2"></img>
+	<p class="columnFolder" id="folder2" style="margin-top:5%">Middle School design</p></a>
+	<a href="dm.html"><img class="columnFolder" src="folder.png" id="folder3"></img>
+	<p class="columnFolder" id="folder3" style="margin-top:5%">Digital Media design</p></a>
+	<a href="halloween.html"><img class="columnFolder" src="folder.png" id="folder4"></img>
+	<p class="columnFolder" id="folder4" style="margin-top:5%">Halloween design</p></a>
+	<a href="index.html"><img src="home.png" id="home"></a>
+
+</BODY>
+</HTML>
