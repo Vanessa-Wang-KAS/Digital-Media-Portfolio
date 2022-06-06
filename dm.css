@@ -1,0 +1,155 @@
+<HTML>
+<HEAD>
+	<STYLE type = "text/css">
+		#bg{
+			position: fixed;
+			width: 101%;
+			z-index: -1;
+			top: -0.5%;
+			left: -0.5%;
+		}
+		#designs{
+			position: absolute;
+			top: 10%;
+			width: 60%;
+			margin: 10px 10px 10px 10px;
+			border-width: 10px;
+			border-color: lightcoral;
+			border-style: solid;
+		}
+		#designs:hover{
+			border-color: white;
+			border-style: dashed;
+		}
+
+		#folder1 {
+			position: absolute;
+			top: 10%;
+			left: 90%;
+			width: 6%;
+		}
+
+		#folder2 {
+			position: absolute;
+			top: 10%;
+			left: 90%;
+			width: 6%;
+		}
+
+		#folder3 {
+			position: absolute;
+			top: 10%;
+			left: 90%;
+			width: 6%;
+		}
+
+		#folder4 {
+			position: absolute;
+			top: 10%;
+			left: 90%;
+			width: 6%;
+		}
+
+		#folder1 {
+			position: relative;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder2 {
+			position: relative;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder3 {
+			position: relative;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#folder4 {
+			position: relative;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		#d {
+			position: absolute;
+			top: 8%;
+			left: 65%;
+		}
+
+		#p {
+			position: absolute;
+			top: 15%;
+			left: 65%;
+		}
+
+		#home {
+			position: absolute;
+			top: 85%;
+			left: 90%;
+			width: 5%;
+			transition: transform .2s;
+		}
+
+		#home:hover {
+			transform: scale(1.2);
+		}
+
+
+		.columnImg {
+			position: absolute;
+			left: 65%;
+			width: 18%;
+		}
+
+		.columnFolder {
+			left: 90%;
+			width: 6%;
+			transition: transform .2s;
+		}
+
+		.columnFolder:hover {
+			transform: scale(1.2);
+		}
+		
+		body {
+			font-family: CUTE FROG;
+			color: #ffffff;
+		}
+
+		a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		a:visited {
+			text-decoration: none;
+		}
+
+		a:active {
+			text-decoration: none;
+		}
+
+	</STYLE>
+</HEAD>
+<BODY>
+	<!----Row 1----->
+	<IMG src="after-clicking-bg.png" id="bg"></IMG>
+	<img src="DigitalMedia.png" id="designs"></img>
+	<h1 id="d">Digital Media Page</h1>
+	<p class="columnImg" id="p">This page is for students who are in digital media class. We tried to include pictures of a variety of students doing different things during class and outside of class to what was done in this course. There are students taking pictures, editing the yearbook pages, sketching designs, and discussing. This was a rather simple design where we cut out the pictures into circle shapes and added different color borders to them. There are also 4 students located at the bottom left page, their backgrounds were removed to add diversity to the page. These are different students taking pictures for the yearbook. There is also a simple quote on the bottom right page to further explain what was done during the yearbook creation process.</p>
+	<a href="pre-K.html"><img class="columnFolder" src="folder.png" id="folder1"></img>
+	<p class="columnFolder" id="folder1">Pre-K design</p></a>
+	<a href="ms.html"><img class="columnFolder" src="folder.png" id="folder2"></img>
+	<p class="columnFolder" id="folder2">Middle School design</p></a>
+	<a href="dm.html"><img class="columnFolder" src="folder.png" id="folder3"></img>
+	<p class="columnFolder" id="folder3">Digital Media design</p></a>
+	<a href="halloween.html"><img class="columnFolder" src="folder.png" id="folder4"></img>
+	<p class="columnFolder" id="folder4">Halloween design</p></a>
+	<a href="index.html"><img src="home.png" id="home"></a>
+
+</BODY>
+</HTML>
